@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.sessaoPrincipal{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%), url(./imgs/fundo-sessao1.png), url(./imgs/fundo-sessao1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo-Pincipal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudo-Pincipal > img{
+    margin: 56px 0 27px 0;
+    width: 222px;
+    height: 214px;
+}
+
+.conteudo-Pincipal > h1{
+    color: #1472B7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+}
+
